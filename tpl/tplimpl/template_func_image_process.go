@@ -132,6 +132,7 @@ func ipResize(img image.Image, width uint, height uint, interpolation string) im
 		break
 	}
 
+	return img;
 }
 
 func ipThumbnail(img image.Image, maxWidth uint, maxHeight uint, interpolation string) image.Image {
@@ -160,6 +161,7 @@ func ipThumbnail(img image.Image, maxWidth uint, maxHeight uint, interpolation s
 		break
 	}
 
+	return img;
 }
 
 func ipFlip(img image.Image, axis string) image.Image {
